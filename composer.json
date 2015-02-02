@@ -1,0 +1,24 @@
+{
+    "license": "proprietary",
+    "minimum-stability": "stable",
+    "homepage": "http://www.solimba.com",
+    "autoload": {
+        "psr-4": {
+            "Domain\\": "Domain/"
+        }
+    },
+    "name": "testSolimba",
+    "description": "test Solimba",
+    "authors": [
+        {
+            "name": "Ruben Vasallo",
+            "email": "ruben@vasallo.nom.es"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.4.*"
+    }
+}
